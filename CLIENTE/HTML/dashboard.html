@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../CSS/dashboard.css">
+    <script src="../JS/global.js" defer></script>
+    <script src="../JS/dashboard.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Silkscreen:wght@400;700&family=UnifrakturCook:wght@700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Haunted Library</h1>
+            <img src="../../IMG/antorcha.gif" alt="Logo">
+        </div>
+        <div class="navbar-links" id="navbar-links">
+            <!-- Links dinámicos de categorías aquí -->
+        </div>
+        <div class="cart-container2">
+            <a href="cart.html">Carrito</a>
+            <div id="cart-count" class="cart-count">0</div>
+        </div>
+        <!-- Link para cerrar sesión -->
+        <div class="logout-container">
+            <a href="logout.html" id="logout-link" title="Cerrar sesión">
+                <i class="fa-solid fa-right-from-bracket"></i> <!-- Icono de cerrar sesión -->
+            </a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section id="home">
+            <!-- Sección del Banner -->
+            <div class="banner">
+                <h1 class="title">Bienvenido a la Biblioteca Encantada</h1>
+                <h2>Descubre el poder de los libros</h2>
+                <p>Sumérgete en nuestro mundo de magia, hechizos y aventuras.</p>
+                <button class="btn-dark-fantasy">Explora bajo tu responsabilidad</button>
+            </div>
+
+            <!-- Sección de Productos Destacados -->
+            <section class="featured-products" id="productos">
+                <h2 class="title">Productos Destacados</h2>
+                <div class="product-grid" id="destacados-container">
+                    <!-- Productos destacados se generarán aquí dinámicamente -->
+                </div>
+            </section>
+
+            <!-- Sección 2? -->
+
+
+        </section>
+
+        <!-- Sección de Testimonios -->
+        <section class="testimonials">
+            <h2 class="title">Lo que dicen nuestros usuarios</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <p>"Una experiencia única, llena de magia y misterio. ¡Cada libro es una aventura!"</p>
+                    <span>- Juan P.</span>
+                </div>
+                <div class="testimonial">
+                    <p>"Nunca pensé que los artefactos antiguos pudieran ser tan fascinantes. ¡Totalmente recomendado!"
+                    </p>
+                    <span>- María S.</span>
+                </div>
+                <div class="testimonial">
+                    <p>"El mejor sitio para encontrar libros mágicos y objetos con historia. Muy recomendable!"</p>
+                    <span>- Ricardo T.</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Biblioteca Medieval | Todos los derechos reservados.</p>
+        <p><a href="#contacto">Contáctanos</a></p>
+    </footer>
+
+</body>
+
+</html>

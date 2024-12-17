@@ -1,0 +1,98 @@
+/* Estilo general */
+body {
+    font-family: 'Silkscreen', sans-serif; /* Fuente retro */
+    background: url('../../IMG/339fe518b1cd08ffeb1e461cdd9eefc6.gif') no-repeat;
+    background-color: black; /* Fondo negro para integrar */
+    background-position: right center; /* Imagen alineada a la derecha y centrada verticalmente */
+    background-size: auto; /* La imagen mantiene su tamaño original */
+    color: #fdf5d3; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-shadow: 2px 2px 2px #000; 
+}
+
+/* Contenedor del formulario sin fondo */
+.formulario-contenedor {
+    background: transparent; 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #4a4039; 
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: transparent; 
+    box-shadow: inset 0 0 8px #2b1f16, 0 0 15px rgba(0, 0, 0, 0.7); 
+}
+
+legend {
+    font-size: 1.5em;
+    color: #fdf5d3; 
+    text-shadow: 2px 2px 0 #000;
+}
+
+label {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #fdf5d3;
+    text-shadow: 1px 1px 0 #000;
+}
+
+input {
+    font-family: 'Silkscreen';
+    width: 90%;
+    padding: 10px;
+    margin: 5px auto;
+    border: 3px solid #4a4039;
+    border-radius: 5px;
+    background: #121212;
+    color: white;
+    font-size: 1em;
+    text-shadow: 1px 1px 0 #000;
+    box-shadow: inset 0 0 8px #2b1f16, 0 0 12px rgba(0, 0, 0, 0.5); 
+}
+
+/* Botón estilo piedra */
+button {
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background: #4a4039; 
+    border: 4px solid #2b1f16; 
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #2b1f16, inset 0 0 8px #1f1611; 
+    transition: transform 0.2s, background 0.3s;
+    font-family: 'Silkscreen';
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #382b1e; /* Un color más oscuro para el efecto hover */
+    box-shadow: 0 0 15px #1f1611, inset 0 0 10px #2b1f16; /* Efecto de sombra para simular más profundidad */
+}
+
+.decoracion {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    image-rendering: pixelated; /* Textura de píxeles */
+}

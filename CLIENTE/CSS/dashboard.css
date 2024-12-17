@@ -1,0 +1,307 @@
+/* Configuración general */
+body {
+    background: url('../../IMG/haunted_hall_by_chitonid_d24uaky-pre.jpg') center center fixed;
+    color: #fdf5d3;
+    font-family: 'Silkscreen', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0;
+    text-align: center; /* Centra el contenido */
+}
+
+/* Títulos */
+.title {
+    color: #d4d4d4;
+    text-shadow: 0 0 5px #444, 0 0 10px #222;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo de las secciones de productos */
+.featured-products, .categories {
+    margin-bottom: 50px;
+}
+
+/* Grid de productos */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ajustado el tamaño mínimo */
+    gap: 20px; /* Aumento del espacio entre productos */
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    align-content: center;
+}
+
+/* Productos individuales */
+.product {
+    border: 2px solid #5a4a3f;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    background-image: url(../../IMG/wall2.png);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product img {
+    width: 150px; /* Aumento el tamaño de las imágenes */
+    height: auto;
+    border-radius: 5px;
+    border: none;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #d4d4d4;
+}
+
+/* Hover para los productos */
+.product:hover {
+    transform: scale(1.05); /* Efecto de zoom */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+/* Botones */
+.btn-dark-fantasy {
+    background-color: #5a4a3f;
+    color: #d4d4d4;
+    border-radius: 5px;
+    border: 3px solid #7f817f;
+    padding: 6px 12px;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px;
+    font-family: 'Silkscreen', cursive;
+}
+
+.btn-dark-fantasy:hover {
+    background-color: #786754;
+}
+
+/* Estilo para los productos de las categorías */
+.categories .product h3 {
+    font-size: 1.5rem;
+    color: #d4d4d4;
+}
+
+.categories .product {
+    background-color: #5a4a3f;
+    box-shadow: none;
+    padding: 20px;
+}
+
+.categories .product:hover {
+    transform: scale(1.05);
+    background-color: #786754;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-image: url(../../IMG/wall1.avif);
+    color: #d4d4d4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Logo */
+.navbar .logo {
+    display: flex; /* Alinear texto e imagen horizontalmente */
+    align-items: center; /* Centrar verticalmente el texto y la imagen */
+    gap: 10px; /* Espaciado entre el texto y la imagen */
+    flex-shrink: 0; /* Evita que el contenedor del logo se reduzca o expanda */
+    margin: 0; /* Elimina márgenes adicionales */
+    padding: 0; /* Elimina rellenos adicionales */
+    max-width: fit-content; /* Ajusta el ancho del contenedor al contenido */
+}
+
+.navbar .logo h1 {
+    font-size: 1.8rem;
+    font-family: 'Silkscreen', cursive;
+    margin: 0; /* Elimina márgenes del texto */
+    line-height: 1; /* Ajusta la altura del texto */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+.navbar .logo img {
+    width: 40px; /* Ajusta el tamaño deseado para la antorcha */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    display: inline-block; /* Asegura que la imagen se comporte como un contenido en línea */
+    margin: 0; /* Elimina cualquier margen de la imagen */
+    vertical-align: middle; /* Centra la imagen respecto al texto */
+}
+
+.navbar-links {
+    display: flex; /* Alinea los enlaces en una fila */
+    align-items: center; /* Centra verticalmente los enlaces */
+    justify-content: flex-end; /* Asegura que los enlaces estén a la derecha */
+    gap: 20px; /* Espaciado entre los enlaces */
+    flex: 1; /* Asegura que los enlaces ocupen el espacio disponible restante */
+}
+
+
+/* Estilo para los enlaces en la navbar */
+.navbar-links a {
+    color: #d4d4d4;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out; /* Agregar transición para el brillo */
+}
+
+.navbar-links a:hover {
+    color: #9b59b6; /* Cambia el color del texto a morado cuando se hace hover */
+    text-shadow: 0 0 8px #9b59b6, 0 0 20px #9b59b6, 0 0 30px #9b59b6, 0 0 40px #9b59b6; /* Efecto de brillo morado */
+}
+
+/* Contenedor de carrito */
+.cart-container2 {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre el enlace y el contador */
+}
+
+.cart-container2 a {
+    color: #d4d4d4;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out; /* Agregar transición para el brillo */
+}
+
+.cart-container2 a:hover {
+    color: #9b59b6; /* Cambia el color del texto a morado cuando se hace hover */
+    text-shadow: 0 0 8px #9b59b6, 0 0 20px #9b59b6, 0 0 30px #9b59b6, 0 0 40px #9b59b6; /* Efecto de brillo morado */
+}
+
+
+/* Contenedor del enlace de cierre de sesión */
+.logout-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; /* Espacio entre el carrito y el icono */
+}
+
+.logout-container a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.logout-container a:hover {
+    color: red;
+}
+
+.logout-container i {
+    font-size: 20px;
+}
+
+
+
+/* Banner */
+.banner {
+    background-image: url('https://i.pinimg.com/originals/42/83/6a/42836adf0826dbfa27034fc55566d3a2.gif');
+    color: #fdf5d3;
+    padding: 50px 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-size: cover;
+    margin: 0;
+}
+
+.banner h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+.banner .btn-dark-fantasy {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.add-to-cart {
+    background-color: #5a4a3f;
+    color: #d4d4d4;
+    border-radius: 5px;
+    border: 3px solid #7f817f;
+    padding: 6px 12px;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin-top: 10px;
+    font-family: 'Silkscreen', cursive;
+}
+
+.add-to-cart:hover {
+    background-color: #786754;
+    box-shadow: 0 0 20px 5px rgba(128, 0, 255, 0.7); /* Brillo morado */
+}
+
+
+
+
+
+
+
+/* Testimonios */
+.testimonials {
+    color: #fdf5d3;
+    padding: 50px 20px;
+    background-image: url(../../IMG/wall2.png);
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.testimonial {
+    background-color: rgba(126, 4, 197, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+}
+
+.testimonial span {
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Pie de página */
+.footer {
+    background-image: url(../../IMG/wall1.avif);
+    color: #d4d4d4;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer a {
+    color: #d4d4d4;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #786754;
+}

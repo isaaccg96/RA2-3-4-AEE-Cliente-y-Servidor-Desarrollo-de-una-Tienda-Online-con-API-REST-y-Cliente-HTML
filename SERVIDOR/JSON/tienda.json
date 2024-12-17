@@ -1,0 +1,218 @@
+{
+    "tematicas": {
+        "Fantasia": {
+            "articulos": [
+                {
+                    "id": "1",
+                    "titulo": "El Hobbit",
+                    "autor": "J.R.R. Tolkien",
+                    "editorial": "Minotauro",
+                    "precio": 20.99,
+                    "numeroPaginas": 310,
+                    "formato": "Tapa dura",
+                    "imagen": "../../IMG/hobbit.jpg",
+                    "descripcion": "Una épica aventura que sigue a Bilbo Bolsón en su viaje para recuperar un tesoro custodiado por el dragón Smaug."
+                },
+                {
+                    "id": "2",
+                    "titulo": "Mistborn",
+                    "autor": "Brandon Sanderson",
+                    "editorial": "Nova",
+                    "precio": 29.99,
+                    "numeroPaginas": 541,
+                    "formato": "Tapa dura",
+                    "imagen": "../../IMG/mistborn.jpg",
+                    "descripcion": "Un mundo donde las cenizas caen y los nobles gobiernan. Una rebelión liderada por una joven con poderes extraordinarios."
+                },
+                {
+                    "id": "3",
+                    "titulo": "Harry Potter",
+                    "autor": "J.K. Rowling",
+                    "editorial": "Salamandra",
+                    "precio": 15.95,
+                    "numeroPaginas": 320,
+                    "formato": "Tapa blanda",
+                    "imagen": "../../IMG/hp.jpg",
+                    "descripcion": "El inicio de la historia del joven mago Harry Potter y su lucha contra Lord Voldemort."
+                },
+                {
+                    "id": "4",
+                    "titulo": "El Nombre del Viento",
+                    "autor": "Patrick Rothfuss",
+                    "editorial": "Plaza & Janés",
+                    "precio": 24.95,
+                    "numeroPaginas": 662,
+                    "formato": "Tapa dura",
+                    "imagen": "../../IMG/nombreviento.jpg",
+                    "descripcion": "La historia de Kvothe, un hombre que se convierte en leyenda y su búsqueda por desentrañar los misterios del mundo."
+                },
+                {
+                    "id": "5",
+                    "titulo": "La Rueda del Tiempo",
+                    "autor": "Robert Jordan",
+                    "editorial": "Minotauro",
+                    "precio": 30.50,
+                    "numeroPaginas": 800,
+                    "formato": "Tapa dura",
+                    "imagen": "../../IMG/rueda.jpg",
+                    "descripcion": "Una saga épica de héroes y villanos en un mundo donde la magia define el destino de todos."
+                }
+            ]
+        },
+        "Aventura": {
+            "articulos": [
+                {
+                    "id": "6",
+                    "titulo": "Naruto",
+                    "autor": "Masashi Kishimoto",
+                    "editorial": "PlanetaComic",
+                    "precio": 7.99,
+                    "volumen": 1,
+                    "ilustrador": "Kasashi Mishimoto",
+                    "imagen": "../../IMG/naruto.jpg",
+                    "descripcion": "Naruto Uzumaki busca convertirse en el ninja más fuerte mientras lidia con el espíritu del zorro de nueve colas dentro de él."
+                },
+                {
+                    "id": "7",
+                    "titulo": "One Piece",
+                    "autor": "Eiichiro Oda",
+                    "editorial": "Shueisha",
+                    "precio": 9.99,
+                    "volumen": 1,
+                    "ilustrador": "Eiichiro Oda",
+                    "imagen": "../../IMG/onepiece.jpg",
+                    "descripcion": "Monkey D. Luffy y su tripulación navegan en busca del tesoro más grande del mundo: el One Piece."
+                },
+                {
+                    "id": "8",
+                    "titulo": "Dragon Ball Z",
+                    "autor": "Akira Toriyama",
+                    "editorial": "Akira Toriyama",
+                    "precio": 12.99,
+                    "volumen": 1,
+                    "ilustrador": "Akira Toriyama",
+                    "imagen": "../../IMG/goku.jpg",
+                    "descripcion": "Goku y sus amigos luchan contra poderosos enemigos para proteger la Tierra y el universo."
+                },
+                {
+                    "id": "9",
+                    "titulo": "Bleach",
+                    "autor": "Tite Kubo",
+                    "editorial": "Shueisha",
+                    "precio": 8.99,
+                    "volumen": 1,
+                    "ilustrador": "Tite Kubo",
+                    "imagen": "../../IMG/bleach.jpg",
+                    "descripcion": "Ichigo Kurosaki, con poderes de shinigami, protege a los vivos y lucha contra las amenazas del mundo espiritual."
+                }
+            ]
+        },
+        "Seinen": {
+            "articulos": [
+                {
+                    "id": "10",
+                    "titulo": "Shingeki no Kyojin",
+                    "autor": "Isayama",
+                    "editorial": "Norma",
+                    "precio": 8.99,
+                    "volumen": 1,
+                    "ilustrador": "Yamaisa",
+                    "imagen": "../../IMG/snk.jpg",
+                    "descripcion": "La humanidad lucha por sobrevivir contra titanes devoradores en un mundo postapocalíptico."
+                },
+                {
+                    "id": "11",
+                    "titulo": "Tokyo Ghoul",
+                    "autor": "Sui Ishida",
+                    "editorial": "Norma",
+                    "precio": 10.99,
+                    "volumen": 1,
+                    "ilustrador": "Sui Ishida",
+                    "imagen": "../../IMG/tokio.jpg",
+                    "descripcion": "Kaneki Ken lidia con su nueva vida como mitad humano, mitad ghoul en un Tokio oscuro y peligroso."
+                },
+                {
+                    "id": "12",
+                    "titulo": "Berserk",
+                    "autor": "Kentaro Miura",
+                    "editorial": "Panini",
+                    "precio": 15.99,
+                    "volumen": 1,
+                    "ilustrador": "Kentaro Miura",
+                    "imagen": "../../IMG/berserk.jpg",
+                    "descripcion": "Guts, el espadachín negro, busca venganza en un mundo cruel y lleno de demonios."
+                },
+                {
+                    "id": "13",
+                    "titulo": "Hellsing",
+                    "autor": "Kouta Hirano",
+                    "editorial": "Geneon",
+                    "precio": 14.99,
+                    "volumen": 1,
+                    "ilustrador": "Kouta Hirano",
+                    "imagen": "../../IMG/hellsing.jpg",
+                    "descripcion": "La organización Hellsing combate fuerzas sobrenaturales con la ayuda de Alucard, un vampiro poderoso."
+                }
+            ]
+        },
+        "Terror": {
+            "articulos": [
+                {
+                    "id": "14",
+                    "titulo": "It",
+                    "autor": "Stephen King",
+                    "editorial": "Plaza & Janés",
+                    "precio": 24.95,
+                    "numeroPaginas": 1138,
+                    "formato": "Tapa dura",
+                    "imagen": "../../IMG/it.jpg",
+                    "descripcion": "Un grupo de amigos enfrenta a una entidad maléfica que toma la forma de sus peores miedos."
+                },
+                {
+                    "id": "15",
+                    "titulo": "El Exorcista",
+                    "autor": "William Peter Blatty",
+                    "editorial": "HarperCollins",
+                    "precio": 18.50,
+                    "numeroPaginas": 400,
+                    "formato": "Tapa blanda",
+                    "imagen": "../../IMG/exorcista.jpg",
+                    "descripcion": "La aterradora historia de una niña poseída y el sacerdote que lucha por salvarla."
+                },
+                {
+                    "id": "16",
+                    "titulo": "Drácula",
+                    "autor": "Bram Stoker",
+                    "editorial": "Alma Clásicos",
+                    "precio": 12.99,
+                    "numeroPaginas": 480,
+                    "formato": "Tapa dura",
+                    "imagen": "../../IMG/dracula.jpg",
+                    "descripcion": "El legendario vampiro Drácula llega a Inglaterra desatando terror y fascinación."
+                },
+                {
+                    "id": "17",
+                    "titulo": "Frankenstein",
+                    "autor": "Mary Shelley",
+                    "editorial": "Penguin Clásicos",
+                    "precio": 10.50,
+                    "numeroPaginas": 288,
+                    "formato": "Tapa blanda",
+                    "imagen": "../../IMG/frank.jpg",
+                    "descripcion": "El científico Victor Frankenstein crea vida, enfrentándose a las consecuencias de su ambición."
+                },
+                {
+                    "id": "18",
+                    "titulo": "El Resplandor",
+                    "autor": "Stephen King",
+                    "editorial": "Debolsillo",
+                    "precio": 15.99,
+                    "numeroPaginas": 576,
+                    "formato": "Tapa dura",
+                    "imagen": "../../IMG/resplandor.jpg",
+                    "descripcion": "Un escritor lucha contra su locura en un hotel embrujado donde el pasado cobra vida."
+                }
+            ]
+        }
+    }
+}
